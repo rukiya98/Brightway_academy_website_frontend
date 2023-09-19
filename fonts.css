@@ -1,0 +1,63 @@
+@font-face
+{
+	font-family: 'FontAwesome';
+	src: url('fonts/fontawesome-webfont.eot?v=3.0.1');
+	src: url('fonts/fontawesome-webfont.eot?#iefix&v=3.0.1') format('embedded-opentype'),
+	     url('fonts/fontawesome-webfont.woff?v=3.0.1') format('woff'),
+	     url('fonts/fontawesome-webfont.ttf?v=3.0.1') format('truetype'),
+	     url('fonts/fontawesome-webfont.svg#FontAwesome') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face
+{
+	font-family: 'Font-Awesome-Social';
+	src: url('fonts/fontawesome-social-webfont.eot');
+	src: url('fonts/fontawesome-social-webfont.eot?#iefix') format('embedded-opentype'),
+	     url('fonts/fontawesome-social-webfont.woff') format('woff'),
+		 url('fonts/fontawesome-social-webfont.ttf') format('truetype'),
+		 url('fonts/fontawesome-social-webfont.svg#Font-Awesome-More') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+	.icon
+	{
+		text-decoration: none;
+	}
+
+		.icon:before
+		{
+			font-size: 1.25em;
+			text-decoration: none;
+			font-family: FontAwesome;
+			font-weight: normal;
+			font-style: normal;
+			-webkit-text-rendering: optimizeLegibility;
+			-moz-text-rendering: optimizeLegibility;
+			-ms-text-rendering: optimizeLegibility;
+			-o-text-rendering: optimizeLegibility;
+			text-rendering: optimizeLegibility;
+			-webkit-font-smoothing: antialiased;
+			-moz-font-smoothing: antialiased;
+			-ms-font-smoothing: antialiased;
+			-o-font-smoothing: antialiased;
+			font-smoothing: antialiased;
+			-webkit-font-feature-settings: "liga" 1, "dlig" 1;
+			-moz-font-feature-settings: "liga=1, dlig=1";
+			-ms-font-feature-settings: "liga" 1, "dlig" 1;
+			-o-font-feature-settings: "liga" 1, "dlig" 1;
+			font-feature-settings: "liga" 1, "dlig" 1;
+		}
+		
+		.icon-twitter:before              { content: "\f099"; }
+		.icon-facebook:before             { content: "\f09a"; }
+		.icon-rss:before                  { content: "\f09e"; }
+		.icon-dribbble:before,
+		.icon-tumblr:before,
+		.icon-youtube:before              {font-family:'Font-Awesome-Social'; }
+		.icon-dropbox:before              { content: "\f300"; }
+    	.icon-dribbble:before             { content: "\f313"; }
+		.icon-tumblr:before               { content: "\f322"; }
